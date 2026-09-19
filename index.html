@@ -82,6 +82,7 @@
                 <!-- Desktop Nav -->
                 <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-700">
                     <a href="#schedule" class="hover:text-brand-600 transition-colors">Class Schedule</a>
+                    <a href="#mbti" class="hover:text-brand-600 transition-colors">MBTI Test</a>
                     <a href="#academics" class="hover:text-brand-600 transition-colors">Meet Academics</a>
                     <a href="#advisors" class="hover:text-brand-600 transition-colors">Faculty Advisors</a>
                     <a href="#events" class="hover:text-brand-600 transition-colors">Semester Events</a>
@@ -89,7 +90,7 @@
 
                 <!-- Action Button -->
                 <div class="hidden sm:flex items-center space-x-3">
-                    <a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-whatsapp hover:bg-whatsappDark text-white px-5 py-2.5 rounded-full font-bold text-sm shadow-md transition-all hover:scale-105">
+                    <a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-whatsapp hover:bg-whatsappDark text-white px-5 py-2.5 rounded-full font-bold text-sm shadow-md transition-all hover:scale-105">
                         <i class="fa-brands fa-whatsapp text-lg"></i>
                         <span>Join Level Group</span>
                     </a>
@@ -107,10 +108,11 @@
         <!-- Mobile Navigation Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-purple-100 px-4 pt-2 pb-6 space-y-3">
             <a href="#schedule" class="block px-3 py-2 rounded-lg font-medium text-slate-700 hover:bg-purple-50 hover:text-brand-600">Class Schedule</a>
+            <a href="#mbti" class="block px-3 py-2 rounded-lg font-medium text-slate-700 hover:bg-purple-50 hover:text-brand-600">MBTI Test</a>
             <a href="#academics" class="block px-3 py-2 rounded-lg font-medium text-slate-700 hover:bg-purple-50 hover:text-brand-600">Meet Academics</a>
             <a href="#advisors" class="block px-3 py-2 rounded-lg font-medium text-slate-700 hover:bg-purple-50 hover:text-brand-600">Faculty Advisors</a>
             <a href="#events" class="block px-3 py-2 rounded-lg font-medium text-slate-700 hover:bg-purple-50 hover:text-brand-600">Semester Events</a>
-            <a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" class="flex items-center justify-center gap-2 bg-whatsapp text-white px-4 py-3 rounded-xl font-bold w-full text-center">
+            <a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 bg-whatsapp text-white px-4 py-3 rounded-xl font-bold w-full text-center">
                 <i class="fa-brands fa-whatsapp text-lg"></i>
                 <span>Join WhatsApp Group</span>
             </a>
@@ -119,7 +121,6 @@
 
     <!-- Hero Banner -->
     <section class="gradient-bg text-white relative overflow-hidden py-16 lg:py-24">
-        <!-- Background decorative geometric shapes -->
         <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-brand-500/20 blur-3xl pointer-events-none"></div>
         <div class="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-purple-400/20 blur-3xl pointer-events-none"></div>
 
@@ -128,7 +129,7 @@
                 
                 <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                     <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase text-purple-200">
-                        <i class="fa-solid fa-sparkles text-amber-300"></i> Open Day 2026 Welcome Hub
+                        <i class="fa-solid fa-sparkles text-amber-300"></i> Open Day Welcome Hub
                     </div>
 
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
@@ -137,15 +138,15 @@
                     </h1>
 
                     <p class="text-lg text-purple-100 max-w-2xl font-light leading-relaxed mx-auto lg:mx-0">
-                        Step into your academic journey at Innovation University. Access your lecture schedules, discover your course professors, meet your dedicated faculty advisors, and stay updated with campus events.
+                        Step into your academic journey at Innovation University. Access your lecture schedules, discover your course professors, complete your MBTI personality assessment, and meet your faculty advisors.
                     </p>
 
                     <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
                         <a href="#schedule" class="bg-white text-brand-900 hover:bg-purple-50 font-bold px-7 py-3.5 rounded-2xl shadow-xl transition-all hover:scale-105 flex items-center gap-2">
                             <i class="fa-solid fa-calendar-days text-brand-600"></i> View Schedule
                         </a>
-                        <a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" class="bg-whatsapp hover:bg-whatsappDark text-white font-bold px-7 py-3.5 rounded-2xl shadow-xl transition-all hover:scale-105 flex items-center gap-2">
-                            <i class="fa-brands fa-whatsapp text-xl"></i> Join WhatsApp Community
+                        <a href="#mbti" class="bg-amber-400 hover:bg-amber-300 text-brand-900 font-bold px-7 py-3.5 rounded-2xl shadow-xl transition-all hover:scale-105 flex items-center gap-2">
+                            <i class="fa-solid fa-brain text-brand-900"></i> Take MBTI Test
                         </a>
                     </div>
                 </div>
@@ -163,15 +164,27 @@
                             </div>
                         </div>
 
-                        <!-- Dean Spotlight -->
-                        <div class="flex items-center space-x-4 bg-purple-50/80 p-4 rounded-2xl mb-4 border border-purple-100">
-                            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-brand-600 to-purple-900 text-amber-300 font-extrabold text-xl flex items-center justify-center ring-2 ring-brand-400 shadow-md shrink-0">
-                                NT
+                        <!-- Dean Spotlight (Prof. Dr. Neveen Torayeh) -->
+                        <div class="flex items-center space-x-4 bg-purple-50/80 p-4 rounded-2xl mb-3 border border-purple-100">
+                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-brand-600 to-purple-900 text-amber-300 font-extrabold text-xl flex items-center justify-center ring-2 ring-brand-400 shadow-md shrink-0 overflow-hidden">
+                                <img src="images/1_neveen.jpg" alt="Prof. Dr. Neveen Torayeh" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='NT';">
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-900 text-sm">Prof. Dr. Neveen Torayeh</h4>
                                 <p class="text-xs text-brand-700 font-medium">Dean of BAE & Professor of Economics</p>
                                 <span class="inline-block mt-1 text-[10px] bg-brand-200 text-brand-900 font-bold px-2 py-0.5 rounded-md">Founding Dean</span>
+                            </div>
+                        </div>
+
+                        <!-- Dean's Secretary Spotlight (Donia Reda Habib) -->
+                        <div class="flex items-center space-x-4 bg-purple-50/50 p-3.5 rounded-2xl mb-4 border border-purple-100/70">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-700 to-brand-800 text-amber-200 font-bold text-xs flex items-center justify-center ring-2 ring-purple-300 shadow-sm shrink-0 overflow-hidden">
+                                <img src="images/9_donia_reda.jpg" alt="Donia Reda Habib" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='DR';">
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-xs sm:text-sm">Donia Reda Habib</h4>
+                                <p class="text-[11px] text-brand-700 font-medium">Secretary to the Dean</p>
+                                <span class="inline-block mt-0.5 text-[9px] bg-purple-100 text-brand-800 font-semibold px-2 py-0.5 rounded-md">Dean's Office</span>
                             </div>
                         </div>
 
@@ -210,7 +223,7 @@
                     <p class="text-sm text-emerald-100 font-light mt-1">Connect with classmates, get instant course updates, schedules, and faculty notices.</p>
                 </div>
             </div>
-            <a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" rel="noopener" class="bg-white text-emerald-800 hover:bg-emerald-50 font-extrabold px-8 py-4 rounded-2xl shadow-lg transition-transform hover:scale-105 shrink-0 flex items-center gap-2">
+            <a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" rel="noopener noreferrer" class="bg-white text-emerald-800 hover:bg-emerald-50 font-extrabold px-8 py-4 rounded-2xl shadow-lg transition-transform hover:scale-105 shrink-0 flex items-center gap-2">
                 <i class="fa-solid fa-user-plus"></i> Join Group Now
             </a>
         </div>
@@ -219,9 +232,28 @@
     <!-- Section 1: Weekly Class Schedule -->
     <section id="schedule" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-12">
-            <span class="text-xs font-bold text-brand-600 bg-purple-100 px-3 py-1 rounded-full uppercase tracking-widest">Academic Timetable</span>
+            <span class="text-xs font-bold text-brand-600 bg-purple-100 px-3 py-1 rounded-full uppercase tracking-widest">Official Timetable</span>
             <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Level 1 Class Schedule</h2>
-            <p class="text-slate-600 mt-2">Filter sessions by day or search by group (A to E) to review your timetable along with instructor profiles.</p>
+            <p class="text-slate-600 mt-2">Filter sessions by day or select your practical section group (A to E). Highlighted sessions are general lectures for all groups in Hall 2.</p>
+        </div>
+
+        <!-- Official Slot Reference Bar -->
+        <div class="bg-gradient-to-r from-purple-900 to-brand-800 text-white p-4 rounded-2xl shadow-md mb-8">
+            <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-extrabold uppercase tracking-wider text-amber-300 flex items-center gap-1.5">
+                    <i class="fa-solid fa-clock"></i> Official Standard Schedule Slots
+                </span>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 text-center text-xs font-bold font-mono">
+                <div class="bg-white/10 py-1.5 px-2 rounded-lg border border-white/10">09:00 - 09:45</div>
+                <div class="bg-white/10 py-1.5 px-2 rounded-lg border border-white/10">09:50 - 10:35</div>
+                <div class="bg-white/10 py-1.5 px-2 rounded-lg border border-white/10">10:40 - 11:25</div>
+                <div class="bg-white/10 py-1.5 px-2 rounded-lg border border-white/10">11:35 - 12:20</div>
+                <div class="bg-white/10 py-1.5 px-2 rounded-lg border border-white/10">12:30 - 01:15</div>
+                <div class="bg-white/10 py-1.5 px-2 rounded-lg border border-white/10">01:20 - 02:05</div>
+                <div class="bg-white/10 py-1.5 px-2 rounded-lg border border-white/10">02:10 - 02:55</div>
+                <div class="bg-white/10 py-1.5 px-2 rounded-lg border border-white/10">03:00 - 03:45</div>
+            </div>
         </div>
 
         <!-- Schedule Controls -->
@@ -229,18 +261,17 @@
             
             <!-- Day Selector Tabs -->
             <div class="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 custom-scrollbar">
-                <button onclick="filterSchedule('saturday')" class="day-tab px-4 py-2 rounded-xl text-sm font-bold bg-brand-600 text-white shadow-md transition-all shrink-0" data-day="saturday">Saturday</button>
-                <button onclick="filterSchedule('sunday')" class="day-tab px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 text-slate-600 hover:bg-purple-100 transition-all shrink-0" data-day="sunday">Sunday</button>
-                <button onclick="filterSchedule('monday')" class="day-tab px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 text-slate-600 hover:bg-purple-100 transition-all shrink-0" data-day="monday">Monday</button>
-                <button onclick="filterSchedule('wednesday')" class="day-tab px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 text-slate-600 hover:bg-purple-100 transition-all shrink-0" data-day="wednesday">Wednesday</button>
-                <button onclick="filterSchedule('thursday')" class="day-tab px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 text-slate-600 hover:bg-purple-100 transition-all shrink-0" data-day="thursday">Thursday</button>
+                <button onclick="filterSchedule('saturday')" class="day-tab px-5 py-2.5 rounded-xl text-sm font-bold bg-brand-600 text-white shadow-md transition-all shrink-0" data-day="saturday">Saturday</button>
+                <button onclick="filterSchedule('sunday')" class="day-tab px-5 py-2.5 rounded-xl text-sm font-bold bg-slate-100 text-slate-600 hover:bg-purple-100 transition-all shrink-0" data-day="sunday">Sunday</button>
+                <button onclick="filterSchedule('monday')" class="day-tab px-5 py-2.5 rounded-xl text-sm font-bold bg-slate-100 text-slate-600 hover:bg-purple-100 transition-all shrink-0" data-day="monday">Monday</button>
+                <button onclick="filterSchedule('wednesday')" class="day-tab px-5 py-2.5 rounded-xl text-sm font-bold bg-slate-100 text-slate-600 hover:bg-purple-100 transition-all shrink-0" data-day="wednesday">Wednesday</button>
             </div>
 
             <!-- Practical Group Filter -->
             <div class="flex items-center gap-3 w-full md:w-auto justify-end">
-                <label for="group-filter" class="text-xs font-bold text-slate-500 uppercase shrink-0"><i class="fa-solid fa-filter text-brand-600 mr-1"></i> Practical Group:</label>
+                <label for="group-filter" class="text-xs font-bold text-slate-500 uppercase shrink-0"><i class="fa-solid fa-filter text-brand-600 mr-1"></i> Filter Group:</label>
                 <select id="group-filter" onchange="applyGroupFilter()" class="bg-purple-50 border border-purple-200 text-brand-900 font-bold text-sm rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand-500">
-                    <option value="ALL">All Groups (A - E & Lectures)</option>
+                    <option value="ALL">All Sessions (Lectures & Groups A-E)</option>
                     <option value="Group A">Group A</option>
                     <option value="Group B">Group B</option>
                     <option value="Group C">Group C</option>
@@ -250,20 +281,115 @@
             </div>
         </div>
 
+        <!-- Legend Bar -->
+        <div class="flex items-center justify-center gap-6 mb-8 text-xs font-bold text-slate-600">
+            <div class="flex items-center gap-2">
+                <span class="w-3.5 h-3.5 rounded-md bg-amber-400 border border-amber-500 inline-block"></span>
+                <span>General Lecture (All Groups / Hall 2)</span>
+            </div>
+            <div class="flex items-center gap-2">
+                <span class="w-3.5 h-3.5 rounded-md bg-brand-600 inline-block"></span>
+                <span>Tutorial / Practical Section (Specific Group)</span>
+            </div>
+        </div>
+
         <!-- Schedule Cards Container -->
         <div id="schedule-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Dynamic JS timetable cards populated here -->
         </div>
     </section>
 
+    <!-- SECTION: MBTI Personality Test -->
+    <section id="mbti" class="py-20 bg-gradient-to-br from-brand-900 via-purple-900 to-brand-800 text-white relative overflow-hidden">
+        <div class="absolute -top-32 -left-32 w-80 h-80 rounded-full bg-purple-500/20 blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-32 -right-32 w-80 h-80 rounded-full bg-amber-400/10 blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-amber-300 bg-white/10 px-4 py-1.5 rounded-full uppercase tracking-widest border border-amber-300/30">
+                    <i class="fa-solid fa-brain mr-1"></i> Personality Assessment
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold mt-3 text-white">Take Your MBTI Assessment</h2>
+                <p class="text-purple-200 mt-3 text-sm sm:text-base leading-relaxed">
+                    Discover your learning style, strength profiles, and optimal career pathways through the Myers-Briggs Type Indicator (MBTI) evaluation for Level 1 BAE students.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-8 items-center max-w-5xl mx-auto">
+                <!-- Test Action Box -->
+                <div class="lg:col-span-6 bg-white text-slate-800 rounded-3xl p-8 shadow-2xl border border-purple-200 relative">
+                    <div class="inline-flex items-center gap-2 bg-purple-100 text-brand-800 font-extrabold text-xs px-3 py-1 rounded-full mb-4">
+                        <i class="fa-solid fa-list-check"></i> Required Student Activity
+                    </div>
+                    <h3 class="text-2xl font-black text-slate-900 mb-3">Complete Your Assessment Online</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed mb-6">
+                        Click the official button below to launch the Google Form. If the popup is blocked, use the copy link button below to open it directly in a new tab.
+                    </p>
+
+                    <!-- Primary Action Button -->
+                    <a id="mbti-form-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdaW5kVaalfxtplKHaMlelTspXex8GwQmrOAnMBCU-x7oIukg/viewform" target="_blank" rel="noopener noreferrer" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-extrabold py-4 px-6 rounded-2xl shadow-lg transition-all hover:scale-[1.02] flex items-center justify-center gap-3 text-center mb-4">
+                        <i class="fa-solid fa-external-link-alt"></i>
+                        <span>Start MBTI Test Now</span>
+                    </a>
+
+                    <!-- Direct Link Display / Copy Fallback -->
+                    <div class="bg-slate-50 border border-purple-100 p-3 rounded-xl flex items-center justify-between gap-2 text-xs">
+                        <input id="mbti-url-input" type="text" readonly value="https://docs.google.com/forms/d/e/1FAIpQLSdaW5kVaalfxtplKHaMlelTspXex8GwQmrOAnMBCU-x7oIukg/viewform" class="bg-transparent text-slate-600 font-mono text-[11px] w-full focus:outline-none truncate">
+                        <button onclick="copyMbtiLink()" class="bg-purple-100 hover:bg-purple-200 text-brand-800 font-bold px-3 py-1.5 rounded-lg shrink-0 transition-colors flex items-center gap-1 text-[11px]">
+                            <i class="fa-regular fa-copy"></i>
+                            <span id="copy-btn-text">Copy Link</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Next Steps / Instructions Box -->
+                <div class="lg:col-span-6 space-y-4">
+                    <h3 class="text-xl font-bold text-white mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-clipboard-list text-amber-300"></i> Steps After Completing the Test:
+                    </h3>
+
+                    <div class="flex items-start gap-4 bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/10">
+                        <div class="w-10 h-10 rounded-xl bg-amber-400 text-brand-900 font-extrabold flex items-center justify-center shrink-0 shadow-md">
+                            1
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Check Your Email</h4>
+                            <p class="text-xs text-purple-200 mt-0.5">Once submitted, your official MBTI test results will be delivered directly to your email inbox.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4 bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/10">
+                        <div class="w-10 h-10 rounded-xl bg-amber-400 text-brand-900 font-extrabold flex items-center justify-center shrink-0 shadow-md">
+                            2
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Print Your Results</h4>
+                            <p class="text-xs text-purple-200 mt-0.5">Print out a hard copy of your email result summary sheet.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4 bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/10">
+                        <div class="w-10 h-10 rounded-xl bg-amber-400 text-brand-900 font-extrabold flex items-center justify-center shrink-0 shadow-md">
+                            3
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Hand It to Your Advisor</h4>
+                            <p class="text-xs text-purple-200 mt-0.5">Submit your printed results directly to your designated <a href="#advisors" class="underline text-amber-300 hover:text-white font-semibold">Faculty Advisor</a> during office hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Section 5: Meet Your Faculty Advisors -->
-    <section id="advisors" class="py-16 bg-gradient-to-b from-purple-900 via-brand-800 to-brand-900 text-white">
+    <section id="advisors" class="py-16 bg-slate-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div class="text-center max-w-3xl mx-auto mb-14">
                 <span class="text-xs font-bold text-purple-200 bg-white/10 px-4 py-1.5 rounded-full uppercase tracking-widest border border-white/20">Academic Support</span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold mt-3 text-white">Meet Your Level 1 Faculty Advisors</h2>
-                <p class="text-purple-200 mt-2 text-sm sm:text-base">Your designated faculty advisors are here to assist you with course registration, academic guidance, and university life orientation.</p>
+                <p class="text-purple-200 mt-2 text-sm sm:text-base">Your designated faculty advisors are here to assist you with course registration, academic guidance, and submitting your MBTI test results.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -275,7 +401,7 @@
                     </div>
 
                     <div class="flex flex-col sm:flex-row items-center gap-6">
-                        <div class="w-24 h-24 rounded-2xl bg-gradient-to-br from-brand-700 to-purple-900 text-amber-300 font-extrabold text-2xl flex items-center justify-center ring-4 ring-brand-400 shadow-lg shrink-0">
+                        <div class="w-24 h-24 rounded-2xl bg-gradient-to-br from-brand-700 to-purple-900 text-amber-300 font-extrabold text-2xl flex items-center justify-center ring-4 ring-brand-400 shadow-lg shrink-0 overflow-hidden">
                             MS
                         </div>
 
@@ -298,15 +424,15 @@
                     </div>
                 </div>
 
-                <!-- Advisor 2: Reham Atef Abdel Wahab Ismail -->
+                <!-- Advisor 2: Reham Atef Abdel Wahab Ismail (With Photo) -->
                 <div class="glass-card rounded-3xl p-6 sm:p-8 text-slate-800 shadow-2xl relative overflow-hidden border border-white/30 transform transition duration-300 hover:-translate-y-2 flex flex-col justify-between">
                     <div class="absolute top-0 right-0 bg-brand-600 text-white text-[11px] font-extrabold px-4 py-1 rounded-bl-2xl">
                         FACULTY ADVISOR
                     </div>
 
                     <div class="flex flex-col sm:flex-row items-center gap-6">
-                        <div class="w-24 h-24 rounded-2xl bg-gradient-to-br from-brand-700 to-purple-900 text-amber-300 font-extrabold text-2xl flex items-center justify-center ring-4 ring-brand-400 shadow-lg shrink-0">
-                            RA
+                        <div class="w-24 h-24 rounded-2xl bg-gradient-to-br from-brand-700 to-purple-900 text-amber-300 font-extrabold text-2xl flex items-center justify-center ring-4 ring-brand-400 shadow-lg shrink-0 overflow-hidden">
+                            <img src="images/5_reham_atef.jpg" alt="Reham Atef Abdel Wahab" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='RA';">
                         </div>
 
                         <div class="text-center sm:text-left space-y-2">
@@ -315,8 +441,8 @@
                             <p class="text-xs text-slate-500">Faculty of Business Administration and Economics (BAE)</p>
                             
                             <div class="pt-2">
-                                <a href="mailto:Reham.Atef@iu.edu.eg" class="inline-flex items-center gap-2 text-xs font-bold text-white bg-brand-600 hover:bg-brand-700 px-4 py-2 rounded-xl transition-colors">
-                                    <i class="fa-solid fa-envelope text-amber-300"></i> Reham.Atef@iu.edu.eg
+                                <a href="mailto:Reham.Ismail@iu.edu.eg" class="inline-flex items-center gap-2 text-xs font-bold text-white bg-brand-600 hover:bg-brand-700 px-4 py-2 rounded-xl transition-colors">
+                                    <i class="fa-solid fa-envelope text-amber-300"></i> Reham.Ismail@iu.edu.eg
                                 </a>
                             </div>
                         </div>
@@ -338,100 +464,108 @@
             <div class="text-center max-w-3xl mx-auto mb-14">
                 <span class="text-xs font-bold text-brand-600 bg-purple-100 px-3 py-1 rounded-full uppercase tracking-widest">Faculty Staff</span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Meet Your Academics</h2>
-                <p class="text-slate-600 mt-2">The esteemed professors, lecturers, and academic staff guiding your Level 1 BAE curriculum.</p>
+                <p class="text-slate-600 mt-2">The esteemed professors, lecturers, and teaching assistants guiding your Level 1 BAE curriculum.</p>
             </div>
 
-            <!-- Grid displaying staff with clean initial badges -->
-            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 
-                <!-- Staff 1 -->
+                <!-- 1. Prof. Dr. Neveen Torayeh -->
                 <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-brand-600 to-purple-800 text-amber-300 font-black text-xl flex items-center justify-center shadow-md border-2 border-brand-200">
-                        NT
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-brand-600 to-purple-800 text-amber-300 font-black text-xl flex items-center justify-center shadow-md border-2 border-brand-200 overflow-hidden">
+                        <img src="images/1_neveen.jpg" alt="Prof. Dr. Neveen Torayeh" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='NT';">
                     </div>
                     <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Prof. Dr. Neveen Torayeh</h3>
                     <p class="text-[11px] font-semibold text-brand-600 mt-1">Dean & Professor of Economics</p>
                 </div>
 
-                <!-- Staff 2 -->
+                <!-- 2. Dr. Hossam Hanafy -->
                 <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-purple-700 to-brand-900 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200">
-                        RM
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-brand-700 to-amber-600 text-amber-200 font-black text-xl flex items-center justify-center shadow-md border-2 border-amber-300 overflow-hidden">
+                        HH
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Dr. Hossam Hanafy</h3>
+                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Lecturer of Management</p>
+                </div>
+
+                <!-- 3. Dr. Reham Mahmoud (Photo 6) -->
+                <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-purple-700 to-brand-900 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200 overflow-hidden">
+                        <img src="images/6_reham_mahmoud.jpg" alt="Dr. Reham Mahmoud" class="w-full h-full object-cover object-center" onerror="this.onerror=null; this.parentElement.innerHTML='RM';">
                     </div>
                     <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Dr. Reham Mahmoud</h3>
                     <p class="text-[11px] font-semibold text-brand-600 mt-1">Lecturer of Mathematics</p>
                 </div>
 
-                <!-- Staff 3 -->
+                <!-- 4. Dr. Mohamed Omar (Photo 8) -->
                 <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-purple-800 to-indigo-900 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200">
-                        MO
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-purple-800 to-indigo-900 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200 overflow-hidden">
+                        <img src="images/8_mohamed_omar.jpg" alt="Dr. Mohamed Omar" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='MO';">
                     </div>
                     <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Dr. Mohamed Omar</h3>
-                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Lecturer of Management</p>
+                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Lecturer of English</p>
                 </div>
 
-                <!-- Staff 4 -->
+                <!-- 5. Dr. Omar Shaheen (Photo 7) -->
                 <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-brand-700 to-purple-900 text-amber-200 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200">
-                        OS
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-brand-700 to-purple-900 text-amber-200 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200 overflow-hidden">
+                        <img src="images/7_omar_shaheen.jpg" alt="Dr. Omar Shaheen" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='OS';">
                     </div>
                     <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Dr. Omar Shaheen</h3>
-                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Lecturer of Law & Human Rights</p>
+                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Lecturer of Law</p>
                 </div>
 
-                <!-- Staff 5 -->
+                <!-- 6. Dr. Mayar Ashraf -->
                 <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-purple-800 to-brand-800 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200">
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-brand-800 to-purple-900 text-amber-200 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200 overflow-hidden">
+                        MA
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Dr. Mayar Ashraf</h3>
+                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Lecturer of Accounting</p>
+                </div>
+
+                <!-- 7. T.A. Mohamed Samir -->
+                <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-purple-800 to-brand-800 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200 overflow-hidden">
                         MS
                     </div>
-                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Mohamed Samir Shabeeb</h3>
-                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Assistant Lecturer - Economics</p>
+                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">T.A. Mohamed Samir</h3>
+                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Teaching Assistant - Law</p>
                 </div>
 
-                <!-- Staff 6 -->
+                <!-- 8. T.A. Reham Atef (Photo 5) -->
                 <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-brand-600 to-purple-800 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200">
-                        RA
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-brand-600 to-purple-800 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200 overflow-hidden">
+                        <img src="images/5_reham_atef.jpg" alt="T.A. Reham Atef" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='RA';">
                     </div>
-                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Reham Atef Abdel Wahab</h3>
-                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Assistant Lecturer - Accounting</p>
+                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">T.A. Reham Atef</h3>
+                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Teaching Assistant - Accounting</p>
                 </div>
 
-                <!-- Staff 7 -->
+                <!-- 9. T.A. Nermeen Ali (Photo 2) -->
                 <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-purple-700 to-brand-900 text-amber-200 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200">
-                        NA
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-purple-700 to-brand-900 text-amber-200 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200 overflow-hidden">
+                        <img src="images/2_nermeen_ali.jpg" alt="T.A. Nermeen Ali" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='NA';">
                     </div>
-                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Nermin Ali Ahmed</h3>
-                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Assistant Lecturer - Business</p>
+                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">T.A. Nermeen Ali</h3>
+                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Teaching Assistant - Management</p>
                 </div>
 
-                <!-- Staff 8 -->
+                <!-- 10. T.A. Alaa El-Nagar (Photo 3) -->
                 <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-brand-700 to-indigo-900 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200">
-                        AH
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-brand-700 to-indigo-900 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200 overflow-hidden">
+                        <img src="images/3_alaa.jpg" alt="T.A. Alaa El-Nagar" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='AH';">
                     </div>
-                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Alaa Hosseini El-Naggar</h3>
-                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Assistant Lecturer - Business</p>
+                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">T.A. Alaa El-Nagar</h3>
+                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Teaching Assistant - Management</p>
                 </div>
 
-                <!-- Staff 9 -->
+                <!-- 11. T.A. Eman Madkour (Photo 4) -->
                 <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-purple-800 to-brand-900 text-amber-200 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200">
-                        EM
+                    <div class="w-24 h-24 mb-3 rounded-2xl bg-gradient-to-br from-purple-800 to-brand-900 text-amber-200 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200 overflow-hidden">
+                        <img src="images/4_eman.jpg" alt="T.A. Eman Madkour" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='EM';">
                     </div>
-                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Eman Madkour</h3>
-                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Assistant Lecturer - Mathematics</p>
-                </div>
-
-                <!-- Staff 10 -->
-                <div class="bg-white rounded-2xl p-5 text-center shadow-md border border-purple-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-                    <div class="w-20 h-20 mb-3 rounded-2xl bg-gradient-to-br from-brand-800 to-purple-900 text-purple-100 font-black text-xl flex items-center justify-center shadow-md border-2 border-purple-200">
-                        NM
-                    </div>
-                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">Nermin Mohamed Hussein</h3>
-                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Assistant Lecturer - Economics</p>
+                    <h3 class="font-bold text-slate-900 text-xs sm:text-sm">T.A. Eman Madkour</h3>
+                    <p class="text-[11px] font-semibold text-brand-600 mt-1">Teaching Assistant - Mathematics</p>
                 </div>
 
             </div>
@@ -448,7 +582,6 @@
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             
-            <!-- Event 1 -->
             <div class="bg-white rounded-3xl p-6 shadow-md border border-purple-100 hover:shadow-xl transition-all flex flex-col justify-between">
                 <div>
                     <div class="w-10 h-10 rounded-xl bg-purple-100 text-brand-700 flex items-center justify-center font-bold mb-4">
@@ -459,7 +592,6 @@
                 </div>
             </div>
 
-            <!-- Event 2 -->
             <div class="bg-white rounded-3xl p-6 shadow-md border border-purple-100 hover:shadow-xl transition-all flex flex-col justify-between">
                 <div>
                     <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold mb-4">
@@ -470,7 +602,6 @@
                 </div>
             </div>
 
-            <!-- Event 3 -->
             <div class="bg-white rounded-3xl p-6 shadow-md border border-purple-100 hover:shadow-xl transition-all flex flex-col justify-between">
                 <div>
                     <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold mb-4">
@@ -481,7 +612,6 @@
                 </div>
             </div>
 
-            <!-- Event 4 -->
             <div class="bg-white rounded-3xl p-6 shadow-md border border-purple-100 hover:shadow-xl transition-all flex flex-col justify-between">
                 <div>
                     <div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center font-bold mb-4">
@@ -516,9 +646,10 @@
                     <h4 class="font-bold text-sm text-purple-300 uppercase tracking-wider mb-4">Quick Links</h4>
                     <ul class="space-y-2 text-sm text-purple-200">
                         <li><a href="#schedule" class="hover:text-white transition">Lecture Timetable</a></li>
+                        <li><a href="#mbti" class="hover:text-amber-300 transition">MBTI Assessment Form</a></li>
                         <li><a href="#academics" class="hover:text-white transition">Faculty Directory</a></li>
                         <li><a href="#advisors" class="hover:text-white transition">Faculty Advisors</a></li>
-                        <li><a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" class="hover:text-emerald-300 transition">Level 1 WhatsApp Group</a></li>
+                        <li><a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-300 transition">Level 1 WhatsApp Group</a></li>
                     </ul>
                 </div>
 
@@ -533,7 +664,7 @@
             <div class="pt-8 border-t border-brand-800 flex flex-col sm:flex-row items-center justify-between text-xs text-purple-300 gap-4">
                 <p>&copy; 2026 Innovation University. Ready for GitHub Pages deployment.</p>
                 <div class="flex items-center space-x-4">
-                    <a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-bold">
+                    <a href="https://chat.whatsapp.com/KLranb2T5gPIxutaZP2IQm?s=cl&p=i&mlu=4&ilr=4" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-bold">
                         <i class="fa-brands fa-whatsapp text-base mr-1"></i> Official WhatsApp Link
                     </a>
                 </div>
@@ -541,100 +672,210 @@
         </div>
     </footer>
 
-    <!-- JavaScript Logic -->
+    <!-- JavaScript Timetable Logic -->
     <script>
-        // Timetable Data Structure
+        // Mapping instructor photos to their relative image file paths
+        const staffPhotos = {
+            'Prof. Dr. Neveen Torayeh': 'images/1_neveen.jpg',
+            'T.A. Nermeen Ali': 'images/2_nermeen_ali.jpg',
+            'T.A. Alaa El-Nagar': 'images/3_alaa.jpg',
+            'T.A. Eman Madkour': 'images/4_eman.jpg',
+            'T.A. Reham Atef': 'images/5_reham_atef.jpg',
+            'Dr. Reham Mahmoud': 'images/6_reham_mahmoud.jpg',
+            'Dr. Omar Shaheen': 'images/7_omar_shaheen.jpg',
+            'Dr. Mohamed Omar': 'images/8_mohamed_omar.jpg'
+        };
+
+        // Official Timetable Data
         const scheduleData = [
-            // SATURDAY
+            // ================= SATURDAY =================
             {
                 day: 'saturday',
                 time: '9:00 AM - 11:25 AM',
                 course: 'Mathematics for Business',
                 code: 'MAT111',
-                instructor: 'Dr. Reham Mahmoud Abd El-Moghney',
+                instructor: 'Dr. Reham Mahmoud',
                 initials: 'RM',
                 role: 'Lecturer',
                 location: 'Hall 2',
                 type: 'Lecture',
+                isHighlighted: true,
                 group: 'ALL'
             },
             {
                 day: 'saturday',
-                time: '9:00 AM - 11:25 AM',
+                time: '11:35 AM - 12:20 PM',
                 course: 'Mathematics for Business',
                 code: 'MAT111',
-                instructor: 'Eman Madkour',
+                instructor: 'T.A. Eman Madkour',
                 initials: 'EM',
-                role: 'Assistant Lecturer',
+                role: 'Teaching Assistant',
+                location: 'Classroom 2',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group A'
+            },
+            {
+                day: 'saturday',
+                time: '11:35 AM - 12:20 PM',
+                course: 'Principles of Microeconomics',
+                code: 'ECO111',
+                instructor: 'T.A. Nermeen Mohamed',
+                initials: 'NM',
+                role: 'Teaching Assistant',
+                location: 'Classroom 4b',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group B'
+            },
+            {
+                day: 'saturday',
+                time: '11:35 AM - 12:20 PM',
+                course: 'Principles of Accounting 1',
+                code: 'ACC111',
+                instructor: 'T.A. Reham Atef',
+                initials: 'RA',
+                role: 'Teaching Assistant',
+                location: 'Classroom 5',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group E'
+            },
+            {
+                day: 'saturday',
+                time: '12:30 PM - 1:15 PM',
+                course: 'Mathematics for Business',
+                code: 'MAT111',
+                instructor: 'T.A. Eman Madkour',
+                initials: 'EM',
+                role: 'Teaching Assistant',
                 location: 'Classroom 3',
                 type: 'Practical Section',
+                isHighlighted: false,
                 group: 'Group D'
             },
             {
                 day: 'saturday',
-                time: '9:00 AM - 11:25 AM',
-                course: 'Mathematics for Business',
-                code: 'MAT111',
-                instructor: 'Eman Madkour',
-                initials: 'EM',
-                role: 'Assistant Lecturer',
-                location: 'Classroom 2',
-                type: 'Practical Section',
-                group: 'Group A'
-            },
-            {
-                day: 'saturday',
-                time: '9:00 AM - 11:25 AM',
+                time: '12:30 PM - 1:15 PM',
                 course: 'Principles of Microeconomics',
                 code: 'ECO111',
-                instructor: 'Nermin Mohamed Hussein',
+                instructor: 'T.A. Nermeen Mohamed',
                 initials: 'NM',
-                role: 'Assistant Lecturer',
+                role: 'Teaching Assistant',
                 location: 'Classroom 4b',
                 type: 'Practical Section',
+                isHighlighted: false,
                 group: 'Group A'
             },
             {
                 day: 'saturday',
-                time: '1:20 PM - 3:45 PM',
+                time: '2:10 PM - 3:45 PM',
                 course: 'Business and Commercial Law',
                 code: 'LAW111',
-                instructor: 'Dr. Omar Mohamed Mohamed Shaheen',
+                instructor: 'Dr. Omar Shaheen',
                 initials: 'OS',
                 role: 'Lecturer',
                 location: 'Hall 2',
                 type: 'Lecture',
+                isHighlighted: true,
                 group: 'ALL'
             },
 
-            // SUNDAY / MONDAY DYNAMICS
+            // ================= SUNDAY =================
             {
                 day: 'sunday',
-                time: '9:00 AM - 11:25 AM',
+                time: '9:00 AM - 9:45 AM',
                 course: 'Principles of Accounting 1',
                 code: 'ACC111',
-                instructor: 'Reham Atef Abdel Wahab Ismail',
+                instructor: 'T.A. Reham Atef',
                 initials: 'RA',
-                role: 'Assistant Lecturer',
+                role: 'Teaching Assistant',
                 location: 'Hall 2',
                 type: 'Practical Section',
+                isHighlighted: false,
                 group: 'Group C'
             },
             {
                 day: 'sunday',
-                time: '9:00 AM - 11:25 AM',
+                time: '9:00 AM - 9:45 AM',
                 course: 'Principles of Microeconomics',
                 code: 'ECO111',
-                instructor: 'Nermin Mohamed Hussein',
+                instructor: 'T.A. Nermeen Mohamed',
                 initials: 'NM',
-                role: 'Assistant Lecturer',
+                role: 'Teaching Assistant',
                 location: 'Classroom 4b',
                 type: 'Practical Section',
+                isHighlighted: false,
                 group: 'Group E'
             },
             {
                 day: 'sunday',
-                time: '11:35 AM - 2:00 PM',
+                time: '9:50 AM - 10:35 AM',
+                course: 'Business and Commercial Law',
+                code: 'LAW111',
+                instructor: 'T.A. Mohamed Samir',
+                initials: 'MS',
+                role: 'Teaching Assistant',
+                location: 'Classroom 5',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group C'
+            },
+            {
+                day: 'sunday',
+                time: '9:50 AM - 10:35 AM',
+                course: 'Principles of Accounting 1',
+                code: 'ACC111',
+                instructor: 'T.A. Reham Atef',
+                initials: 'RA',
+                role: 'Teaching Assistant',
+                location: 'Classroom 4b',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group D'
+            },
+            {
+                day: 'sunday',
+                time: '10:40 AM - 11:25 AM',
+                course: 'Principles of Accounting 1',
+                code: 'ACC111',
+                instructor: 'T.A. Reham Atef',
+                initials: 'RA',
+                role: 'Teaching Assistant',
+                location: 'Classroom 3',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group A'
+            },
+            {
+                day: 'sunday',
+                time: '10:40 AM - 11:25 AM',
+                course: 'Mathematics for Business',
+                code: 'MAT111',
+                instructor: 'T.A. Eman Madkour',
+                initials: 'EM',
+                role: 'Teaching Assistant',
+                location: 'Classroom 2',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group B'
+            },
+            {
+                day: 'sunday',
+                time: '10:40 AM - 11:25 AM',
+                course: 'Business and Commercial Law',
+                code: 'LAW111',
+                instructor: 'T.A. Mohamed Samir',
+                initials: 'MS',
+                role: 'Teaching Assistant',
+                location: 'Classroom 5',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group E'
+            },
+            {
+                day: 'sunday',
+                time: '11:35 AM - 1:15 PM',
                 course: 'English Language 1',
                 code: 'ENG101',
                 instructor: 'Dr. Mohamed Omar',
@@ -642,20 +883,50 @@
                 role: 'Lecturer',
                 location: 'Hall 2',
                 type: 'Lecture',
+                isHighlighted: true,
                 group: 'ALL'
             },
             {
                 day: 'sunday',
-                time: '11:35 AM - 2:00 PM',
-                course: 'Principles of Microeconomics',
-                code: 'ECO111',
-                instructor: 'Prof. Dr. Neveen Torayeh',
-                initials: 'NT',
-                role: 'Dean / Professor',
-                location: 'Hall 2',
-                type: 'Lecture',
-                group: 'ALL'
+                time: '1:20 PM - 2:05 PM',
+                course: 'Principles of Accounting 1',
+                code: 'ACC111',
+                instructor: 'T.A. Reham Atef',
+                initials: 'RA',
+                role: 'Teaching Assistant',
+                location: 'Classroom 4b',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group B'
             },
+            {
+                day: 'sunday',
+                time: '1:20 PM - 2:05 PM',
+                course: 'Principles of Management',
+                code: 'MGT111',
+                instructor: 'T.A. Alaa El-Nagar',
+                initials: 'AH',
+                role: 'Teaching Assistant',
+                location: 'Classroom 4a',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group D'
+            },
+            {
+                day: 'sunday',
+                time: '1:20 PM - 2:05 PM',
+                course: 'Mathematics for Business',
+                code: 'MAT111',
+                instructor: 'T.A. Eman Madkour',
+                initials: 'EM',
+                role: 'Teaching Assistant',
+                location: 'Classroom 5',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group E'
+            },
+
+            // ================= MONDAY =================
             {
                 day: 'monday',
                 time: '9:00 AM - 11:25 AM',
@@ -666,49 +937,157 @@
                 role: 'Lecturer',
                 location: 'Hall 2',
                 type: 'Lecture',
+                isHighlighted: true,
                 group: 'ALL'
             },
             {
                 day: 'monday',
-                time: '1:20 PM - 3:45 PM',
-                course: 'Principles of Management',
-                code: 'MGT111',
-                instructor: 'Alaa Hosseini El-Naggar',
-                initials: 'AH',
-                role: 'Assistant Lecturer',
-                location: 'Classroom 4',
-                type: 'Practical Section',
-                group: 'Group D'
+                time: '11:35 AM - 1:15 PM',
+                course: 'Principles of Microeconomics',
+                code: 'ECO111',
+                instructor: 'Prof. Dr. Neveen Torayeh',
+                initials: 'NT',
+                role: 'Dean / Professor',
+                location: 'Hall 2',
+                type: 'Lecture',
+                isHighlighted: true,
+                group: 'ALL'
             },
             {
                 day: 'monday',
-                time: '1:20 PM - 3:45 PM',
+                time: '2:10 PM - 2:55 PM',
                 course: 'Principles of Management',
                 code: 'MGT111',
-                instructor: 'Nermin Ali Ahmed Ibrahim',
+                instructor: 'T.A. Nermeen Ali',
                 initials: 'NA',
-                role: 'Assistant Lecturer',
+                role: 'Teaching Assistant',
                 location: 'Classroom 5',
                 type: 'Practical Section',
+                isHighlighted: false,
                 group: 'Group A'
             },
-
-            // WEDNESDAY & THURSDAY
             {
-                day: 'wednesday',
-                time: '9:00 AM - 11:25 AM',
-                course: 'Business and Commercial Law',
-                code: 'LAW111',
-                instructor: 'Mohamed Samir Shabeeb',
-                initials: 'MS',
-                role: 'Assistant Lecturer',
+                day: 'monday',
+                time: '2:10 PM - 2:55 PM',
+                course: 'Principles of Microeconomics',
+                code: 'ECO111',
+                instructor: 'T.A. Nermeen Mohamed',
+                initials: 'NM',
+                role: 'Teaching Assistant',
                 location: 'Classroom 4b',
                 type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group C'
+            },
+            {
+                day: 'monday',
+                time: '2:10 PM - 2:55 PM',
+                course: 'Business and Commercial Law',
+                code: 'LAW111',
+                instructor: 'T.A. Mohamed Samir',
+                initials: 'MS',
+                role: 'Teaching Assistant',
+                location: 'Classroom 2',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group B'
+            },
+            {
+                day: 'monday',
+                time: '3:00 PM - 3:45 PM',
+                course: 'Mathematics for Business',
+                code: 'MAT111',
+                instructor: 'T.A. Eman Madkour',
+                initials: 'EM',
+                role: 'Teaching Assistant',
+                location: 'Classroom 3',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group C'
+            },
+            {
+                day: 'monday',
+                time: '3:00 PM - 3:45 PM',
+                course: 'Principles of Management',
+                code: 'MGT111',
+                instructor: 'T.A. Alaa El-Nagar',
+                initials: 'AH',
+                role: 'Teaching Assistant',
+                location: 'Hall 2',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group E'
+            },
+            {
+                day: 'monday',
+                time: '3:00 PM - 3:45 PM',
+                course: 'Principles of Microeconomics',
+                code: 'ECO111',
+                instructor: 'T.A. Nermeen Mohamed',
+                initials: 'NM',
+                role: 'Teaching Assistant',
+                location: 'Classroom 4b',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group D'
+            },
+
+            // ================= WEDNESDAY =================
+            {
+                day: 'wednesday',
+                time: '9:00 AM - 9:45 AM',
+                course: 'Business and Commercial Law',
+                code: 'LAW111',
+                instructor: 'T.A. Mohamed Samir',
+                initials: 'MS',
+                role: 'Teaching Assistant',
+                location: 'Classroom 5',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group D'
+            },
+            {
+                day: 'wednesday',
+                time: '9:00 AM - 9:45 AM',
+                course: 'Principles of Management',
+                code: 'MGT111',
+                instructor: 'T.A. Nermeen Ali',
+                initials: 'NA',
+                role: 'Teaching Assistant',
+                location: 'Classroom 4b',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group B'
+            },
+            {
+                day: 'wednesday',
+                time: '9:50 AM - 10:35 AM',
+                course: 'Business and Commercial Law',
+                code: 'LAW111',
+                instructor: 'T.A. Mohamed Samir',
+                initials: 'MS',
+                role: 'Teaching Assistant',
+                location: 'Classroom 4b',
+                type: 'Practical Section',
+                isHighlighted: false,
                 group: 'Group A'
             },
             {
                 day: 'wednesday',
-                time: '11:35 AM - 2:00 PM',
+                time: '9:50 AM - 10:35 AM',
+                course: 'Principles of Management',
+                code: 'MGT111',
+                instructor: 'T.A. Alaa El-Nagar',
+                initials: 'AH',
+                role: 'Teaching Assistant',
+                location: 'Classroom 5',
+                type: 'Practical Section',
+                isHighlighted: false,
+                group: 'Group C'
+            },
+            {
+                day: 'wednesday',
+                time: '1:20 PM - 2:55 PM',
                 course: 'Principles of Management',
                 code: 'MGT111',
                 instructor: 'Dr. Hossam Hanafy',
@@ -716,31 +1095,8 @@
                 role: 'Lecturer',
                 location: 'Hall 2',
                 type: 'Lecture',
+                isHighlighted: true,
                 group: 'ALL'
-            },
-            {
-                day: 'thursday',
-                time: '9:00 AM - 11:25 AM',
-                course: 'Principles of Management',
-                code: 'MGT111',
-                instructor: 'Nermin Ali Ahmed Ibrahim',
-                initials: 'NA',
-                role: 'Assistant Lecturer',
-                location: 'Classroom 4b',
-                type: 'Practical Section',
-                group: 'Group B'
-            },
-            {
-                day: 'thursday',
-                time: '9:50 AM - 12:20 PM',
-                course: 'Principles of Management',
-                code: 'MGT111',
-                instructor: 'Alaa Hosseini El-Naggar',
-                initials: 'AH',
-                role: 'Assistant Lecturer',
-                location: 'Classroom 5',
-                type: 'Practical Section',
-                group: 'Group C'
             }
         ];
 
@@ -768,38 +1124,55 @@
             }
 
             container.innerHTML = filtered.map(item => {
+                const isLecture = item.type === 'Lecture';
+                const cardStyle = isLecture 
+                    ? 'bg-amber-50/90 border-2 border-amber-300 shadow-lg' 
+                    : 'bg-white border border-purple-100 shadow-md hover:shadow-xl';
+
+                const badgeStyle = isLecture 
+                    ? 'bg-amber-400 text-amber-950 font-black' 
+                    : 'bg-brand-100 text-brand-800 font-extrabold';
+
+                const photoUrl = staffPhotos[item.instructor];
+                const avatarContent = photoUrl 
+                    ? `<img src="${photoUrl}" alt="${item.instructor}" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.parentElement.innerHTML='${item.initials}';">`
+                    : item.initials;
+
                 return `
-                <div class="bg-white rounded-2xl p-6 shadow-md border border-purple-100 hover:shadow-xl transition-all relative overflow-hidden flex flex-col justify-between">
-                    <div class="absolute top-0 right-0 bg-purple-100 text-brand-800 text-[10px] font-extrabold px-3 py-1 rounded-bl-xl">
+                <div class="${cardStyle} rounded-2xl p-6 transition-all relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 right-0 ${isLecture ? 'bg-amber-400 text-amber-950' : 'bg-purple-100 text-brand-800'} text-[10px] font-black px-3 py-1 rounded-bl-xl uppercase tracking-wider">
                         ${item.code}
                     </div>
 
                     <div>
                         <div class="flex items-center gap-2 mb-3">
-                            <span class="text-xs font-bold ${item.type === 'Lecture' ? 'bg-amber-100 text-amber-900' : 'bg-brand-100 text-brand-800'} px-2.5 py-1 rounded-lg">
+                            <span class="text-xs ${badgeStyle} px-2.5 py-1 rounded-lg flex items-center gap-1">
+                                <i class="fa-solid ${isLecture ? 'fa-landmark' : 'fa-users-rectangle'}"></i>
                                 ${item.type}
                             </span>
-                            <span class="text-xs font-semibold text-slate-500">
-                                ${item.group === 'ALL' ? 'All Level 1' : item.group}
+                            <span class="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded-md">
+                                ${item.group === 'ALL' ? 'All Groups (Hall 2)' : item.group}
                             </span>
                         </div>
 
                         <h3 class="text-lg font-extrabold text-slate-900 mb-1">${item.course}</h3>
-                        <p class="text-xs font-bold text-brand-600 mb-4"><i class="fa-regular fa-clock mr-1"></i> ${item.time}</p>
+                        <p class="text-xs font-extrabold text-brand-700 mb-4 flex items-center gap-1.5">
+                            <i class="fa-regular fa-clock text-amber-600"></i> ${item.time}
+                        </p>
 
-                        <!-- Instructor Profile Badge -->
-                        <div class="flex items-center space-x-3 bg-slate-50 p-3 rounded-xl border border-slate-100 mb-4">
-                            <div class="w-10 h-10 rounded-xl bg-brand-600 text-amber-300 font-extrabold text-xs flex items-center justify-center shrink-0 shadow-sm">
-                                ${item.initials}
+                        <!-- Instructor Badge with Photo Avatar -->
+                        <div class="flex items-center space-x-3 bg-white p-3 rounded-xl border border-slate-200/80 mb-4 shadow-sm">
+                            <div class="w-11 h-11 rounded-xl bg-brand-600 text-amber-300 font-extrabold text-xs flex items-center justify-center shrink-0 shadow-sm overflow-hidden">
+                                ${avatarContent}
                             </div>
                             <div>
                                 <h4 class="font-bold text-xs text-slate-900">${item.instructor}</h4>
-                                <p class="text-[11px] text-slate-500">${item.role}</p>
+                                <p class="text-[11px] text-slate-500 font-medium">${item.role}</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-slate-700">
+                    <div class="pt-3 border-t border-slate-200/60 flex items-center justify-between text-xs font-bold text-slate-700">
                         <span><i class="fa-solid fa-location-dot text-brand-500 mr-1"></i> ${item.location}</span>
                         <span class="text-brand-600">BAE Building</span>
                     </div>
@@ -826,13 +1199,26 @@
             renderSchedule();
         }
 
-        // Mobile Nav Toggle Logic
+        function copyMbtiLink() {
+            const input = document.getElementById('mbti-url-input');
+            input.select();
+            input.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(input.value);
+            
+            const btnText = document.getElementById('copy-btn-text');
+            btnText.innerText = 'Copied!';
+            setTimeout(() => {
+                btnText.innerText = 'Copy Link';
+            }, 2500);
+        }
+
+        // Mobile Nav Toggle
         document.getElementById('mobile-menu-btn').addEventListener('click', () => {
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         });
 
-        // Initialize on Load
+        // Initialize
         window.addEventListener('DOMContentLoaded', () => {
             renderSchedule();
         });
